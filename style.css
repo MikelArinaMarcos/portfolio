@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    background-image: url("assets/index_cabecera.jpg");
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+
+.lista_indice{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gainsboro;
+    position: fixed;
+    width: 100%;
+}
+
+.indice {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+.indice a{
+    color: black;
+}
