@@ -3,11 +3,23 @@ body{
     font-size: 18px;
 }
 
-h1{
-    background-image: url("assets/index_cabecera.jpg");
-    text-align: center;
+.header{
+    width: 100%;
     height: 200px;
-    position: relative;
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+}
+
+@supports(object-fit: cover){
+    .header img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
 }
 
 .lista_indice{
