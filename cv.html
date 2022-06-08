@@ -6,86 +6,90 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header">
-            <img src="assets/index_cabecera.jpg">
+        <header id="main-header">
+            <div class="header">
+                <img src="assets/index_cabecera.jpg">
+            </div>
+            <div class="sidebar">
+                <ul class="lista_indice">
+                    <li class="indice"><a href="#datos_personales">Datos personales</a></li>
+                    <li class="indice"><a href="#idiomas">Idiomas</a></li>
+                    <li class="indice"><a href="#estudios">Estudios</a></li>
+                    <li class="indice"><a href="#laboral">Experiencia laboral</a></li>
+                </ul>
+            </div>
         </div>
-
-        <section>
+        </header>
+        <section id="main-content">
+        <div class="resto">
             <h1>MIKEL ARINA MARCOS</h1>
-            <ul class="lista_indice">
-                <li class="indice"><a href="#datos_personales">Datos personales</a></li>
-                <li class="indice"><a href="#idiomas">Idiomas</a></li>
-                <li class="indice"><a href="#estudios">Estudios</a></li>
-                <li class="indice"><a href="#laboral">Experiencia laboral</a></li>
+            <h2 id="datos_personales">Datos Personales</h2>
+                <p>
+                    Mikel Arina Marcos<br>
+                    02/12/1992 - Madrid<br>
+                    08860 Castelldefels (Barcelona)
+                </p>
+
+            <h2 id="idiomas">Idiomas</h2>
+            <table>
+                <tr id="cabecera_idiomas">
+                    <td><strong>Idioma</strong></td>
+                    <td><strong>Nivel bajo</strong></td>
+                    <td><strong>Nivel medio</strong></td>
+                    <td><strong>Nivel alto</strong></td>
+                    <td><strong>Nativo</strong></td>
+                </tr>
+
+                <tr id="idiomas_tabla">
+                    <td>Català</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+
+                <tr id="idiomas_tabla">
+                    <td>Castellano</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+
+                <tr id="idiomas_tabla">
+                    <td>English</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <h2 id="estudios">Estudios</h2>
+            <ul>
+                <li class="width">
+                    <strong>Bachillerato tecnológico</strong><br>
+                    Col·legi Santo Angel (Gavà).
+                </li>
+                <br>
+                <li>
+                    <strong>Grado en Ingeniería Telemática</strong><br>
+                    Universitat Politècnica de Catalunya (UPC).
+                </li>
             </ul>
+
+            <h2 id="laboral">Laboral</h2>
+            <ul>
+                <li>
+                    <strong>Profesor de programación y robótica</strong> (<i>Gavà</i>, 2021 - Actualidad)<br>
+                    Profesor de una extraescolar de programación y robótica a niños y jóvenes.
+                </li>
+                <br>
+                <li>
+                    <strong>Entrenador de fútbol</strong> (<i>Gavà</i>, 2012 - Actualidad)<br>
+                    Entrenador de fútbol formativo en diferentes niveles desde los 6 a los 18 años.
+                </li>
+            </ul>
+        </div>
         </section>
-
-        <br>
-        <h2 id="datos_personales">Datos Personales</h2>
-            <p>
-                Mikel Arina Marcos<br>
-                02/12/1992 - Madrid<br>
-                08860 Castelldefels (Barcelona)
-            </p>
-
-        <h2 id="idiomas">Idiomas</h2>
-        <table>
-            <tr id="cabecera_idiomas">
-                <td><strong>Idioma</strong></td>
-                <td><strong>Nivel bajo</strong></td>
-                <td><strong>Nivel medio</strong></td>
-                <td><strong>Nivel alto</strong></td>
-                <td><strong>Nativo</strong></td>
-            </tr>
-
-            <tr id="idiomas_tabla">
-                <td>Català</td>
-                <td></td>
-                <td></td>
-                <td>X</td>
-                <td></td>
-            </tr>
-
-            <tr id="idiomas_tabla">
-                <td>Castellano</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>X</td>
-            </tr>
-
-            <tr id="idiomas_tabla">
-                <td>English</td>
-                <td></td>
-                <td>X</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-        <h2 id="estudios">Estudios</h2>
-        <ul>
-            <li class="width">
-                <strong>Bachillerato tecnológico</strong><br>
-                Col·legi Santo Angel (Gavà).
-            </li>
-            <br>
-            <li>
-                <strong>Grado en Ingeniería Telemática</strong><br>
-                Universitat Politècnica de Catalunya (UPC).
-            </li>
-        </ul>
-
-        <h2 id="laboral">Laboral</h2>
-        <ul>
-            <li>
-                <strong>Profesor de programación y robótica</strong> (<i>Gavà</i>, 2021 - Actualidad)<br>
-                Profesor de una extraescolar de programación y robótica a niños y jóvenes.
-            </li>
-            <br>
-            <li>
-                <strong>Entrenador de fútbol</strong> (<i>Gavà</i>, 2012 - Actualidad)<br>
-                Entrenador de fútbol formativo en diferentes niveles desde los 6 a los 18 años.
-            </li>
-        </ul>
     </body>
 </html>

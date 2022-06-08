@@ -1,19 +1,31 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
+    padding-top: 200px;
 }
 
-.header{
-    width: 100%;
+/* DISEÑO DE LA IMAGEN DE CABECERA */
+
+#main-header {
     height: 200px;
+    width: 100%;
+    left:0;
+    top:0;
+    position:fixed;
 }
 
-.header img{
+
+.header{ /* Contenedor de la cabecera */ 
+    width: 100%;
+    height: 180px;
+}
+
+.header img{ /*Imagen de la cabecera */
     width: 100%;
     height: auto;
 }
 
-@supports(object-fit: cover){
+@supports(object-fit: cover){ /*Ajuste de la imagen al contenedor */
     .header img{
         width: 100%;
         height: 100%;
@@ -28,7 +40,6 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: gainsboro;
-    position: fixed;
     width: 100%;
 }
 
@@ -40,4 +51,8 @@ body{
 
 .indice a{
     color: black;
+}
+
+
+.resto{
 }
