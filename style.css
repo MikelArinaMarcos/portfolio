@@ -6,7 +6,7 @@ body{
 
 /* DISEÑO DE LA IMAGEN DE CABECERA */
 
-#main-header {
+#header { /* Contenedor de la cabecera */
     height: 200px;
     width: 100%;
     left:0;
@@ -15,7 +15,6 @@ body{
     display: inline-block;
     text-align: center;
 }
-
 .header_text { /* Texto de la cabecera */
     position: absolute;
     top: 45%;
@@ -24,20 +23,17 @@ body{
     color: grey;
     font-size: 200px;
 }
-
-.header{ /* Contenedor de la cabecera */ 
+.header_image{ /* Contenedor de la imagen de cabecera */ 
     width: 100%;
     height: 180px;
 }
-
-.header img{ /*Imagen de la cabecera */
+.header_image img{ /*Imagen de la cabecera */
     width: 100%;
     height: auto;
     opacity: 20%;
 }
-
 @supports(object-fit: cover){ /*Ajuste de la imagen al contenedor */
-    .header img{
+    .header_image img{
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -45,25 +41,20 @@ body{
     }
 }
 
-.lista_indice{
+.header_index{ /* Menú principal */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gainsboro;
+    background-color: grey;
     width: 100%;
 }
 
-.indice {
+.index_c { /* Posición de la barra de menú */
     float: left;
     padding: 10px;
-    color: white;
 }
 
-.indice a{
+.index_c a{ /*Texto del menú */
     color: black;
-}
-
-
-.resto{
 }
