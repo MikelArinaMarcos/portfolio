@@ -12,8 +12,18 @@ body{
     left:0;
     top:0;
     position:fixed;
+    display: inline-block;
+    text-align: center;
 }
 
+.header_text { /* Texto de la cabecera */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+    font-size: 200px;
+}
 
 .header{ /* Contenedor de la cabecera */ 
     width: 100%;
@@ -23,6 +33,7 @@ body{
 .header img{ /*Imagen de la cabecera */
     width: 100%;
     height: auto;
+    opacity: 20%;
 }
 
 @supports(object-fit: cover){ /*Ajuste de la imagen al contenedor */
