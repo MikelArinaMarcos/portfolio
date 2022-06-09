@@ -107,3 +107,35 @@ caption {
 th {
     background-color:gainsboro;
 }
+
+.personal_data {
+    width: 100%;
+    height: 150 px;
+}
+
+.info_data {
+    position:relative;
+    float: left;
+    width: 75%;
+    height: 150px;
+}
+
+.details_info_data {
+    margin-left: 5px;
+}
+
+.foto_data {
+    position: relative;
+    float: right;
+    width: 25%;
+    height: 150px;
+}
+
+.foto_data img {
+    width: 100 px;
+    height: 100px;
+}
+
+.idiomas_section {
+    float:inline-end;
+}
