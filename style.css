@@ -1,13 +1,7 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    padding-top: 100px;
-}
-
 /* DISEÑO DE LA CABECERA */
 
 #header { /* Contenedor de la cabecera */
-    height: 100px;
+    height: 45px;
     width: 100%;
     left:0;
     top:0;
@@ -24,6 +18,7 @@ body{
     overflow: hidden;
     background-color:black;
     width: 100%;
+    height: 45px;
 }
 
 .index_c { /* Posición de las opicones de la barra de navegación */
@@ -37,7 +32,35 @@ body{
     text-decoration: none; /* Quitamos el subrayado del texto */
 }
 
-/* DISEÑO DE LA PARTE PRINCIPAL */
+/* DISEÑO DE LA PARTE PRINCIPAL DEL CV*/
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.section_title{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    top:45px;
+    left: 0;
+    display: inline-block;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding-top: 30px;
+}
+
 
 h1 {
     text-align: center;
