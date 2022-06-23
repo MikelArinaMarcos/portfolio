@@ -1,13 +1,13 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
-/* DISEÑO DE LA IMAGEN DE CABECERA */
+/* DISEÑO DE LA CABECERA */
 
 #header { /* Contenedor de la cabecera */
-    height: 200px;
+    height: 100px;
     width: 100%;
     left:0;
     top:0;
@@ -16,64 +16,33 @@ body{
     text-align: center;
     z-index: 2;
 }
-.header_text { /* Texto de la cabecera */
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 200px;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
 
-@keyframes slidein { /*Animación del texto */
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-}
-
-.header_image{ /* Contenedor de la imagen de cabecera */ 
-    width: 100%;
-    height: 180px;
-}
-.header_image img{ /*Imagen de la cabecera */
-    width: 100%;
-    height: auto;
-}
-@supports(object-fit: cover){ /*Ajuste de la imagen al contenedor */
-    .header_image img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center center;
-    }
-}
-
-.header_index{ /* Menú principal */
+.index{ /* Barra de navegación */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color:black;
     width: 100%;
 }
 
-.index_c { /* Posición de la barra de menú */
-    float: left;
+.index_c { /* Posición de las opicones de la barra de navegación */
+    float: right;
     padding: 10px;
+    padding-bottom: 10px;
 }
 
-.index_c a{ /*Texto del menú */
-    color: black;
+.index_c a{ /*Texto de la barra de navegación */
+    color: white; 
+    text-decoration: none; /* Quitamos el subrayado del texto */
 }
 
 /* DISEÑO DE LA PARTE PRINCIPAL */
 
 h1 {
     text-align: center;
-    text-decoration: double;
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 h2 {
@@ -116,6 +85,7 @@ th {
 }
 
 .info_data {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position:relative;
     float: left;
     width: 75%;
@@ -134,8 +104,8 @@ th {
 }
 
 .foto_data img {
-    width: 100 px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
 }
 
 .idiomas_section {
