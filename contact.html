@@ -22,18 +22,26 @@
         </div>
         
         <div class="contact_form">
-            <h1>Formulario de contacto</h1>
-            <h3>Escriba a continuación sus datos y me pondré en contacto con usted a la mayor brevedad posible</h3>
-            <form>
-                <label for="nombre">Nombre: </label>
-                <input id="nombre" type="text"><br>
-                <label for="mail">Correo electrónico: </label>
-                <input id="mail" type="email"><br>
-                <label for="asunto">Escriba su mensaje: </label><br>
-                <textarea id="asunto" type="text" cols="50" rows="5"></textarea><br>
-                <input type="checkbox" id="datos_personales">
-                <label for="datos_personales"> He leído y acepto la política de privaciadad</label><br>
-                <button id="enviar">Enviar</button>
+            <h1 id="contact_title">Formulario de contacto</h1>
+            <h4>Escriba sus datos de contacto y me pondré en contacto con usted a la mayor brevedad posible</h4>
+            <form method="post">
+                <p>
+                    <label for="nombre">Nombre<span class="obligatorio">*</span></label>
+                    <input type="text" name="int_nombre" id="nombre" required="obligatorio" placeholder="Escriba su nombre"><br>
+                </p>
+                <p>
+                    <label for="email">Correo electrónico<span class="obligatorio">*</span></label>
+                    <input id="email" type="email" name="int_email" required="obligatorio" placeholder="Escriba su correo electrónico"><br>
+                </p>
+                <p>
+                    <label for="asunto" class="poner_asunto">Escriba su mensaje<span class="obligatorio">*</span></label><br>
+                    <textarea id="asunto" type="text" name="poner_asunto" cols="50" rows="5" required="obligatorio" placeholder="Escriba aquí su mensaje"></textarea><br>
+                </p>
+                <p>
+                    <input type="checkbox" id="datos_personales">
+                    <label for="datos_personales"> He leído y acepto la política de privaciadad</label><br>
+                </p>
+                    <button id="enviar">Enviar</button>
             </form>
         </div>
     </body>
