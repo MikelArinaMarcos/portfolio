@@ -10,7 +10,6 @@
     text-align: center;
     z-index: 2;
 }
-
 .index{ /* Barra de navegación */
     list-style-type: none;
     margin: 0;
@@ -20,27 +19,16 @@
     width: 100%;
     height: 45px;
 }
-
 .index_c { /* Posición de las opicones de la barra de navegación */
     float: right;
     padding: 10px;
     padding-bottom: 10px;
 }
-
 .index_c a{ /*Texto de la barra de navegación */
     color: white; 
     text-decoration: none; /* Quitamos el subrayado del texto */
 }
-
-/* DISEÑO DE LA PARTE PRINCIPAL DEL CV*/
-
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    margin: 0;
-}
-
-.section_title{
+.section_title{ /* Título de la página */
     background-color: aquamarine;
     width: 100%;
     height: 100px;
@@ -53,6 +41,17 @@ body{
     margin-top: 45px;
 }
 
+/***************************************************/
+
+/*          DISEÑO DE LA PARTE PRINCIPAL DEL CV          */
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* FORMULARIO DE CONTACTO */
 .contact_form{
     width: 460px;
     height: auto;
@@ -64,7 +63,6 @@ body{
     padding-right: 20px;
     margin: 80px auto;
 }
-
 input{
     width: 408px;
     height: 40px;
@@ -76,7 +74,6 @@ input{
     padding-left: 10px;
     margin-bottom: 20px;
 }
-
 textarea{
     width: 408px;
     height: 150px;
@@ -88,12 +85,10 @@ textarea{
     margin-bottom: 20px;
     padding-top: 10px;
 }
-
 label{
     display: block;
     float: center;
 }
-
 button{
     height: 45px; 
     padding-left: 5px;
@@ -108,11 +103,45 @@ button{
     width: 420px;   
     cursor: pointer;
 }
-
 span{
     color:firebrick;
 }
+#datos_personales{
+    width: 30px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#datos_personales + label{
+    font-size: medium;
+    margin: 0;
+    display:inline;
+}
 
+/***************************************************/
+
+/* CV */
+personal_data{
+    width: 100%;
+    display: flex;
+}
+datos_personales_header{
+    width: 100%;
+    position: absolute;
+    background:darkgrey;
+}
+datos_personales_header + h2{
+    text-align: left;
+}
+#datos_personales_info{
+    width: 50%;
+    background-color: antiquewhite;
+}
+#datos_personales_foto{
+    width: 50%;
+}
+/*Aspectos generales */
 h1 {
     text-align: center;
     font-size: xx-large;
@@ -121,26 +150,14 @@ h1 {
 
 
 h2 {
-    text-decoration: underline;
+
 }
 
 h4{
     text-align: justify;
 }
 
-#datos_personales{
-    width: 30px;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
 
-#datos_personales + label{
-    font-size: medium;
-    margin: 0;
-    display:inline;
-}
 
 table {
     width: 100%;
@@ -169,36 +186,6 @@ caption {
 
 th {
     background-color:gainsboro;
-}
-
-.personal_data {
-    width: 100%;
-    height: 150 px;
-    overflow: scroll;
-}
-
-.info_data {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position:relative;
-    float: left;
-    width: 75%;
-    height: 150px;
-}
-
-.details_info_data {
-    margin-left: 5px;
-}
-
-.foto_data {
-    position: relative;
-    float: right;
-    width: 25%;
-    height: 150px;
-}
-
-.foto_data img {
-    width: 130px;
-    height: 130px;
 }
 
 .idiomas_section {
