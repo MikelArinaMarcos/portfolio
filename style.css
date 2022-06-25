@@ -154,6 +154,8 @@ datos_personales_header + h2{
     width: 50%;
 }
 
+
+/* IDIOMAS */
 #idiomas{
     display: inline-block;
 }
