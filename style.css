@@ -122,25 +122,70 @@ span{
 /***************************************************/
 
 /* CV */
-personal_data{
-    width: 100%;
-    display: flex;
+.principal_cv{
+    margin-left: 10px;
 }
-datos_personales_header{
+#datos_personales{
     width: 100%;
-    position: absolute;
-    background:darkgrey;
+    height: auto;
+    display: inline-block;
+}
+#datos_personales_header{
+    width: 100%;
+    height: auto;
 }
 datos_personales_header + h2{
     text-align: left;
 }
 #datos_personales_info{
-    width: 50%;
+    width: 75%;
+    padding-left: 5px;
     background-color: antiquewhite;
+    float: left;
 }
 #datos_personales_foto{
+    width: 15%;
+    height: auto;
+    float: right;
+    margin-right: 10px;
+
+}
+#datos_personales_foto img{
     width: 50%;
 }
+
+#idiomas{
+    display: inline-block;
+}
+table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+}
+th, td {
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+.idioma_ok{
+    background-color: green;
+}
+caption {
+    padding: 0.3em;
+    color: #fff;
+    background-color: #000;
+}
+th {
+    background-color:gainsboro;
+}
+
+
+
 /*Aspectos generales */
 h1 {
     text-align: center;
@@ -159,35 +204,3 @@ h4{
 
 
 
-table {
-    width: 100%;
-    border: 1px solid black;
-}
-
-th, td {
-    width: 20%;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 0.3em;
-    caption-side: bottom;
-}
-
-.idioma_ok{
-    background-color: green;
-}
-
-caption {
-    padding: 0.3em;
-    color: #fff;
-    background-color: #000;
-}
-
-th {
-    background-color:gainsboro;
-}
-
-.idiomas_section {
-    float:inline-end;
-}

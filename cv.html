@@ -21,10 +21,18 @@
             <h1>CURRICULUM VITAE</h1>
         </div>
         
-        <div class="main_content_cv">
-            <div id="personal_data">
+        <section class="indice_contenidos">
+            <h2 id="indice_contenidos_titulo">Índice de contenidos</h2>
+            <a href="#datos_personales_titulo">Datos personales</a><br>
+            <a href="#idiomas_titulo">Idiomas</a><br>
+            <a href="#estudios_titulo">Estudios</a><br>
+            <a href="#experiencia_titulo">Experiencia laboral</a><br>
+        </section>
+
+        <section class="principal_cv">
+            <section id="datos_personales">
                 <div id="datos_personales_header">
-                    <h2>Datos Personales</h2>
+                    <h2 id="datos_personales_titulo">Datos Personales</h2>
                 </div>
                 <div id="datos_personales_info">
                     <p>
@@ -38,67 +46,81 @@
                     <img src="assets/fot_pers.jpg">
                 </div>
 
-            </div>
-            <div id="idiomas_section">
-                <div id="prove">
-                    <h2 id="idiomas">Idiomas</h2>
+            </section>
+            <section id="idiomas">
+                <div id="lang_title">
+                    <h2 id="idiomas_titulo">Idiomas</h2>
                 </div>
-                <table class="lang_table">
-                    <tr>
-                        <th scope="row">Idioma</th>
-                        <th>Nivel bajo</th>
-                        <th>Nivel medio</th>
-                        <th>Nivel alto</th>
-                        <th>Nativo</th>
-                    </tr>
-                    <tr>
-                        <th>Català</th>
-                        <td></td>
-                        <td></td>
-                        <td class="idioma_ok">X</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>Castellano</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="idioma_ok">X</td>
-                    </tr>
-                    <tr>
-                        <th>English</th>
-                        <td></td>
-                        <td class="idioma_ok">X</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-            <h2 id="estudios">Estudios</h2>
-            <ul>
-                <li class="width">
-                    <strong>Bachillerato tecnológico</strong><br>
-                    Col·legi Santo Angel (Gavà).
-                </li>
-                <br>
-                <li>
-                    <strong>Grado en Ingeniería Telemática</strong><br>
-                    Universitat Politècnica de Catalunya (UPC).
-                </li>
-            </ul>
-
-            <h2 id="laboral">Laboral</h2>
-            <ul>
-                <li>
-                    <strong>Profesor de programación y robótica</strong> (<i>Gavà</i>, 2021 - Actualidad)<br>
-                    Profesor de una extraescolar de programación y robótica a niños y jóvenes.
-                </li>
-                <br>
-                <li>
-                    <strong>Entrenador de fútbol</strong> (<i>Gavà</i>, 2012 - Actualidad)<br>
-                    Entrenador de fútbol formativo en diferentes niveles desde los 6 a los 18 años.
-                </li>
-            </ul>
-        </div>
+                <div id="lang_info">
+                    <table class="lang_table">
+                        <tr>
+                            <th scope="row">Idioma</th>
+                            <th>Nivel bajo</th>
+                            <th>Nivel medio</th>
+                            <th>Nivel alto</th>
+                            <th>Nativo</th>
+                        </tr>
+                        <tr>
+                            <th>Català</th>
+                            <td></td>
+                            <td></td>
+                            <td class="idioma_ok">X</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Castellano</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="idioma_ok">X</td>
+                        </tr>
+                        <tr>
+                            <th>English</th>
+                            <td></td>
+                            <td class="idioma_ok">X</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            
+            <section id="estudios">
+                <div id="estudios_header">
+                    <h2 id="estudios_titulo">Estudios</h2>
+                </div>
+                <div id="estudios_lista">
+                    <ul>
+                        <li class="width">
+                            <strong>Bachillerato tecnológico</strong><br>
+                            Col·legi Santo Angel (Gavà).
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Grado en Ingeniería Telemática</strong><br>
+                            Universitat Politècnica de Catalunya (UPC).
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="experiencia">
+                <div id="expeciencia_header">
+                    <h2 id="experiencia_titulo">Laboral</h2>
+                </div>
+                <div id="experiencia_lista">
+                    <ul>
+                        <li>
+                            <strong>Profesor de programación y robótica</strong> (<i>Gavà</i>, 2021 - Actualidad)<br>
+                            Profesor de una extraescolar de programación y robótica a niños y jóvenes.
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Entrenador de fútbol</strong> (<i>Gavà</i>, 2012 - Actualidad)<br>
+                            Entrenador de fútbol formativo en diferentes niveles desde los 6 a los 18 años.
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </body>
 </html>
