@@ -137,9 +137,9 @@ h4{
 }
 
 #datos_personales + label{
-    font-size: small;
+    font-size: medium;
     margin: 0;
-    position: absolute;
+    display:inline;
 }
 
 table {
