@@ -524,4 +524,78 @@ h1 {
         margin-right: 5%;
         width: 25%;
     }
+
+    .contact_form{
+        width: 380px;
+        height: auto;
+        border-radius: 10px;
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 80px auto;
+    }
+
+    #contact_title{
+        text-align: center;
+        font-size: x-large;
+        text-decoration: underline;
+    }
+    
+    input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: cornflowerblue;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    textarea{
+        width: 100%;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: cornflowerblue;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    label{
+        display: block;
+        float: center;
+    }
+    button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color:cornflowerblue; 
+        border-color: cornflowerblue; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 380px;   
+        cursor: pointer;
+    }
+    span{
+        color:firebrick;
+    }
+    #privacidad{
+        width: 30px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    #privacidad + label{
+        font-size: small;
+        margin: 0;
+        display:inline;
+    }
 }
