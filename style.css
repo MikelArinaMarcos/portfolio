@@ -47,7 +47,7 @@
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -191,8 +191,11 @@ th {
 /*                          INDEX.HTML                               */
 /*********************************************************************/
 
+#body_index{
+    background-color: gainsboro;
+}
+
 #presentacion_titulo{
-    width: 100%;
     text-align: center;
 }
 #presentacion_info{
@@ -214,14 +217,100 @@ th {
     width: 500px;
     align-content: center;
 }
+#mis_proyectos_titulo{
+    text-align: center;
+}
+#proyectos{
+    display:flex;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#proyecto_num{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 33%;
+    border: black solid 1px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
 
+#proyecto_num img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+#texto_proyecto_num{
+    height: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
+#proyecto_num button{
+    width: 40%;
+    height: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: flex-end;
+}
 
+#experiencia{
+    background-color: white;
+}
 
+#experiencia_titulo{
+    margin-top: 20px;
+    text-align: center;
+}
 
+#experiencia_titulo h2{
+    padding-top: 20px;
+}
+#experiencia_graficos{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
+#mis_aficiones{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+#mis_aficiones_titulo{
+    text-align: center;
+}
+
+#aficiones{
+    display:flex;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#aficiones_num{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 33%;
+    border: black solid 1px;
+    background-color: antiquewhite;
+}
+
+#aficiones_num p{
+    margin-left: 5%;
+    width: 75%;
+}
+
+#aficiones_num img{
+    margin-right: 5%;
+    width: 25%;
+}
 
 
 
