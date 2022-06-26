@@ -598,4 +598,79 @@ h1 {
         margin: 0;
         display:inline;
     }
+
+    .main_cv{
+        margin-left: 10%;
+        font-size: large;
+    }
+    
+    #contenido{
+        font-size: large;
+        margin-left: 5%;
+    }
+    
+    #datos_personales_info{
+        display: contents;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    #datos_personales_texto{
+        margin-right: 2%;
+        margin-left: 5%;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    
+    #datos_personales_texto img{
+        width: 25%;
+        float: center;
+        margin-right: 10%;
+        border: #000 2px solid;
+        border-radius: 10px;
+    }
+    
+    .principal_cv{
+        margin-left: 10px;
+    }
+    
+    #cv_titulo_seccion{
+        font-size: xx-large;
+        text-align: left;
+    }
+    
+    /* IDIOMAS */
+    #idiomas{
+        display: inline-block;
+    }
+    table {
+        max-width: 380px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        border: 1px solid black;
+    }
+    th, td {
+        width: 20%;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.3em;
+        caption-side: bottom;
+    }
+    .idioma_ok{
+        background-color: green;
+    }
+    caption {
+        padding: 0.3em;
+        color: #fff;
+        background-color: #000;
+    }
+    th {
+        font-size: small;
+        background-color:gainsboro;
+    }
 }
