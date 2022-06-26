@@ -8,7 +8,7 @@
     position:fixed;
     display: inline-block;
     text-align: center;
-    z-index: 2;
+    z-index: 3;
 }
 .index{ /* Barra de navegación */
     list-style-type: none;
@@ -51,7 +51,7 @@
     width: 40%;
     position: absolute;
     z-index: 2;
-    padding-top:100px;
+    padding-top:50px;
     padding-bottom: 100px;
     padding-left: 30%;
     padding-right: 30%;
@@ -382,4 +382,146 @@ h1 {
 }
 
 
+/******************************************/
+/*           DISEÑO RESPONSIVE            */ 
+/******************************************/
 
+@media screen and (max-width: 480px){
+    .titulo{
+        height: 250px;
+    }
+    #titulo_titulo{
+        padding-top: 0px;
+    }
+    #presentacion_titulo{
+        text-align: center;
+    }
+    
+    #presentacion_info{
+        display: contents;
+        max-width: 480px;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #presentacion_seccion{
+        max-width: 420px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+        position: static;
+    }
+    
+    #presentacion_seccion img{
+        padding-left: 0%;
+        padding-top: 0%;
+        width: 100%;
+        position:static;
+    }
+    #mis_proyectos_titulo{
+        display: block;
+        text-align: center;
+    }
+    #proyectos{
+        display:contents;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #proyecto_num{
+        max-width: 420px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        border: black solid 1px;
+        border-radius: 10px;
+        background-color: antiquewhite;
+    }
+    
+    #proyecto_num img{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    #texto_proyecto_num{
+        height: 25%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    #proyecto_num button{
+        width: 40%;
+        height: 10%;
+        margin-left: 30%;
+        margin-right: 30%;
+        align-items: flex-end;
+    }
+
+    #experiencia{
+        background-color: white
+    }
+    
+    #experiencia_titulo{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #experiencia_titulo h2{
+        padding-top: 20px;
+    }
+    #experiencia_graficos{
+        max-width: 420px;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #experiencia_graficos img{
+        max-width: 420px;
+    }
+    #mis_aficiones{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    #mis_aficiones_titulo{
+        text-align: center;
+    }
+    
+    #aficiones{
+        display: contents;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    #aficiones_num{
+        display: flex;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        width: 100%;
+        border: black solid 1px;
+        background-color: white
+    }
+    
+    #aficiones_num p{
+        font-weight: bolder;
+        font-size: x-large;
+        margin-left: 5%;
+        width: 75%;
+        align-items: center;
+        line-height: 50px;
+    }
+    
+    #aficiones_num img{
+        margin-right: 5%;
+        width: 25%;
+    }
+}
