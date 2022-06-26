@@ -187,6 +187,43 @@ th {
 }
 
 
+/*********************************************************************/
+/*                          INDEX.HTML                               */
+/*********************************************************************/
+
+#presentacion_titulo{
+    width: 100%;
+    text-align: center;
+}
+#presentacion_info{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#presentacion_texto{
+    text-align: left;
+    margin-right: 5%;
+}
+#presentacion_foto{
+    text-align: right;
+    align-content: center;
+}
+#presentacion_foto img{
+    padding-top: 7%;
+    width: 500px;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*Aspectos generales */
 h1 {
