@@ -1,5 +1,7 @@
 /* DISEÑO DE LA CABECERA */
 
+/* Molt bona pràctica posar comentaris al codi, ben fet! */
+
 #header { /* Contenedor de la cabecera */
     height: 45px;
     width: 100%;
@@ -150,6 +152,9 @@ span{
     font-size: large;
 }
 
+/* és recomanable utilitzar classes (.classe) enlloc de id (#id) per tema d'especificitat
+en generla, els id van molt bé per JS, però CSS està més pensat per utilitzar classes, sobretot
+pensades per a poder ser reutilitzables */
 #contenido{
     font-size: large;
     margin-left: 5%;
@@ -386,6 +391,8 @@ h1 {
 /*           DISEÑO RESPONSIVE            */ 
 /******************************************/
 
+/* Bon ús de media queries */
+
 @media screen and (max-width: 480px){
     .titulo{
         height: 250px;
@@ -412,7 +419,7 @@ h1 {
         width: 100%;
         position: static;
     }
-    
+    /* bon ús de l'especificitat */
     #presentacion_seccion img{
         padding-left: 0%;
         padding-top: 0%;
